@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+/****************************************************
+ * Stylesheet
+ * 1.general
+ * 2.layout
+ * 3.template
+ * 4.content
+ * 5.Smartphone
+ * ※The breakpoint is 768 pixel, so please change it according to the site
+ ****************************************************/
+
+
+/****************************************************
+
+/****************************************************
+ * 1.GENERAL
+ ****************************************************/
+
+html {
+    font-size: 10px;
+    font-family: "ヒラギノ角ゴ Pro W3", "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "游ゴシック体", "Yu Gothic", "YuGothic", "メイリオ", "Meiryo", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+body {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+.inner_in {
+    width: 96%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.inner {
+    width: 96%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+a {
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.is_pc {
+    display: block;
+}
+
+.is_sp {
+    display: none;
+}
+
+
+/****************************************************
+ * 1.LAYOUT
+ ****************************************************/
+
+.top_sec01 .banner {
+    width: 100vw;
+    height: auto;
+}
+
+.top_sec01 .wrap {
+    background-image: url("../img/bg_company.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 820px;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    margin-top: -2px;
+}
+
+.top_sec01 .wrap .page_ttl {
+    font-size: 3.33rem;
+    color: #ffffff;
+    letter-spacing: 1.8px;
+    margin-top: -20px;
+}
+
+.top_sec01 .wrap .text_desc p:nth-child(1) {
+    text-align: center !important;
+    font-family: "ヒラギノ角ゴ Pro W6";
+    padding-bottom: 30px;
+}
+
+.top_sec01 .wrap .text_desc p {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: left;
+    line-height: 2.6;
+    margin: 0px 28%;
+}
+
+.top_sec01 .wrap .text_desc {
+    padding-bottom: 30px;
+    border-bottom: 4px solid #000c20;
+}
+
+.top_sec01 .wrap a {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    font-family: "ヒラギノ角ゴ Pro W6";
+    margin: 20px 0% 0px 60%;
+    width: 100%;
+    height: 4px;
+    background-color: #000c20;
+}
+
+.top_sec01 .wrap .top_company {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 70px auto 40px;
+}
+
+.top_sec01 .wrap .top_company p {
+    color: #ffffff;
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 0px;
+    line-height: 2;
+}
+
+.top_sec01 .wrap .top_company .left {
+    align-self: center;
+}
+
+.top_sec01 .wrap .top_company p:first-child {
+    padding-bottom: 20px;
+}
+
+.top_sec02 {
+    background-color: #000D22;
+    padding-bottom: 100px;
+}
+
+.top_sec02 p {
+    color: #ffffff;
+    font-size: 2.4rem;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    padding: 90px 0px 45px;
+}
+
+.top_sec03>img {
+    width: 100%;
+}
+
+.top_sec03 .content {
+    text-align: left !important;
+}
+
+.top_sec03 .content,
+.top_sec03 .sample {
+    background-color: #000D22;
+    padding: 50px 50px;
+    margin-top: -2px;
+    text-align: center;
+}
+
+.top_sec03 .content p:first-child {
+    font-size: 1.6rem;
+    color: #ffffff;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+
+.top_sec03 .content p:nth-child(3) {
+    font-size: 1.8rem;
+    color: #ffffff;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+
+.top_sec03 .content h3 {
+    color: #ffffff;
+    font-size: 2.6rem;
+    padding: 20px 0px 40px;
+}
+
+.top_sec03 .details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000D22;
+}
+
+.top_sec03 .details figure {
+    width: 100%;
+}
+
+.top_sec03 .details figure:nth-child(2) {
+    margin: 0px 15px;
+}
+
+.top_sec03 .details figure img {
+    border: none;
+}
+
+.top_sec03 figure figcaption {
+    color: #ffffff;
+    width: 230px;
+    margin: 15px auto;
+    font-size: 1.6rem;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.top_sec03 .sample figure figcaption {
+    text-align: center;
+    width: 100%;
+}
+
+.top_sec04 {
+    background-color: #000000;
+}
+
+.top_sec04 .product_list {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+
+.top_sec04 .product_list:first-child {
+    background-image: url("../img/img01_topsec04.png");
+}
+
+.top_sec04 .product_list:nth-child(3) {
+    background-image: url("../img/img02_topsec04.png");
+}
+
+.top_sec04 .product_list:nth-child(5) {
+    background-image: url("../img/img03_topsec04.png");
+}
+
+.top_sec04 .product_list:nth-child(7) {
+    background-image: url("../img/img04_topsec04.png");
+}
+
+.top_sec04 .product_list .txt_content {
+    margin-left: 55%;
+    padding-top: 210px;
+}
+
+.top_sec04 .product_list .txt_content:nth-child(even) {
+    margin-left: 10%;
+    padding-top: 210px;
+}
+
+.top_sec04 .txt_content img {
+    margin-bottom: 30px;
+}
+
+.top_sec04 .txt_content p {
+    color: #ffffff;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    letter-spacing: 2px;
+}
+
+.top_sec04 hr {
+    height: 2px;
+    background-color: #393939;
+    border: none;
+    width: 90%;
+    margin: 0px auto;
+}
