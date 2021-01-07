@@ -277,6 +277,10 @@ a:hover {
     line-height: 1.6;
 }
 
+.top_sec03 .details figure figcaption {
+    margin: 20px auto 15px;
+}
+
 .top_sec03 .sample figure figcaption {
     text-align: center;
     width: 100%;
