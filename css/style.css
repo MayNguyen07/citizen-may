@@ -146,10 +146,12 @@ a:hover {
 
 .top_sec01 .wrap .text_desc {
     padding-bottom: 38px;
-    border-bottom: 4px solid #000c20;
-    padding-left: 80px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
-
+.top_sec01 .wrap-underline{
+    border-bottom: 4px solid #000c20;
+}
 .top_sec01 .wrap a {
     color: #ffffff;
     border: 1px solid #ffffff;
@@ -413,8 +415,12 @@ a:hover {
     width: 100%;
     height: 550px;
     background-position: center center;
+    position: relative;
 }
 
+.top_sec05.special_link {
+    text-align: center;
+}
 .top_sec05 .bg_anniversary .special_link img {
     top: 450px;
     border: 0;
@@ -573,7 +579,8 @@ a:hover {
 
 @media screen and (min-width: 1560px) {
     .top_sec05 .bg_anniversary .special_link img {
-        top: 490px;
+        bottom: 20px;
+        top: unset;
     }
 }
 
@@ -698,7 +705,7 @@ a:hover {
         align-items: center;
     }
     .top_sec03 .details figure {
-        width: 81.65%;
+        width: 82%;
     }
     .top_sec03 .details figure img {
         width: 100%;
@@ -993,6 +1000,9 @@ a:hover {
     }
     .top_sec03 .content {
         padding: 50px 0px 50px;
+    }
+    .top_sec03 .details figure {
+        width: 94%;
     }
     .top_sec03 figure figcaption {
         font-size: 1.5rem;
