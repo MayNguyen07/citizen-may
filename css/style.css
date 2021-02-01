@@ -75,9 +75,11 @@ a:hover {
 }
 
 .container {
-    min-width: 1120px;
+    min-width: 1099px;
 }
-
+#main {
+    min-width: 1099px;
+}
 
 /****************************************************
  * 1.LAYOUT
@@ -542,7 +544,9 @@ a:hover {
     border-right: 1px solid #efefef;
     position: relative;
 }
-
+#footer .wrap ul li a {
+    color: #ffffff;
+}
 #footer .wrap ul li::after {
     content: "";
     background-image: url("../img/icon_tab_pc.png");
@@ -573,7 +577,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
     #gNav,
     #main,
     #footer,
@@ -611,10 +615,10 @@ a:hover {
         z-index: -1;
     }
     .top_sec01 .wrap .page_ttl {
-        margin-top: 20px;
+        margin-top: 30px;
         font-size: 4.6rem;
         line-height: 1.3;
-        letter-spacing: 1px;
+        letter-spacing: 0.2px;
     }
     .top_sec01 .wrap .text_desc p:nth-child(1) {
         font-size: 2.2rem;
