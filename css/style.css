@@ -122,7 +122,7 @@ a:hover {
     padding-bottom: 28px;
     letter-spacing: 2.7px;
     padding-left: 15px;
-    margin-left: 225px;
+    text-align: center;
     padding-top: 9px;
 }
 
@@ -353,7 +353,7 @@ a:hover {
     height: 2px;
     background-color: #393939;
     border: none;
-    width: 76.5%;
+    width: 90%;
     margin: 0px auto;
 }
 
@@ -785,6 +785,7 @@ a:hover {
     }
     .top_sec06 .address_list h3 {
         text-align: center;
+        padding-left: 0;
     }
     .top_sec06 .address_item .right {
         padding-left: 0px;
@@ -823,6 +824,9 @@ a:hover {
         width: 50%;
         display: inline-block;
         font-size: 1.6rem;
+    }
+    #footer .wrap ul li:hover{
+        opacity: 0.7;
     }
     #footer .wrap ul {
         border-top: 1px solid #525252;
@@ -937,7 +941,8 @@ a:hover {
         line-height: 1.5;
     }
     .top_sec01 .wrap .text_desc p:nth-child(1) {
-        font-size: 1.6rem;
+        font-size: 1.25rem;
+        letter-spacing: 1px;
     }
     .top_sec01 .wrap .text_desc img {
         margin-bottom: 30px;
@@ -1011,7 +1016,7 @@ a:hover {
     }
     .top_sec04 .txt_content img:nth-child(3) {
         margin: 30px auto 30px;
-        width: 30%;
+
     }
     .top_sec04 .txt_content p {
         font-size: 1.5rem;
